@@ -169,8 +169,9 @@ function Home() {
         }
 
 .image-placeholder-box {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 1/1;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
