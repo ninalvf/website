@@ -130,10 +130,13 @@ function Contact() {
           background: var(--bg-secondary);
         }
 
-        .container {
-          max-width: 1200px;
-          margin: 0 auto;
-        }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem; /* Optional: ensures padding on small screens */
+  box-sizing: border-box; /* Prevents horizontal overflow */
+}
 
         .page-title {
           font-size: 3rem;
